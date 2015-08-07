@@ -1,0 +1,11 @@
+{{yield}}
+
+<div style="background-color:{{color}}; width: 100px; height:100px; display:inline-block;">
+</div>
+<div style="display:inline; width:calc(100% - 100px); height:100px;">
+    {{#if color}}
+        {{color}}
+    {{else}}
+        no color specified
+    {{/if}}
+</div>
